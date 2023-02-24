@@ -4,10 +4,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloWorldController {
+public class Servicio_Consumer_1 {
 
 	@RequestMapping({"/test"})
 	public String Saludo() {
-		return "Hola mundo feliz";
+		return "Despliegue de servicio Exitoso";
 	}
 }
