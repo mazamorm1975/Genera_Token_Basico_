@@ -8,6 +8,6 @@ public class Servicio_Consumer_2 {
 
 	@RequestMapping({"/test2"})
 	public String Servicio_2() {
-		return "Despliegue de nuevo servicio";
+		return "Despliegue de Consumer_2";
 	}
 }
